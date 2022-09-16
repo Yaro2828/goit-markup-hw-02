@@ -37,6 +37,8 @@ body {
 /* -----------------------------------HEADER------------------ */
 
 .logo {
+  font-family: 'Raleway';
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -116,8 +118,6 @@ body {
 
 /* what-we-do--------------- */
 
-.gallery {
-}
 .gallery-title {
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -126,8 +126,6 @@ body {
 
 /* <!-- our team --> */
 
-.team {
-}
 .team-title {
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -155,4 +153,33 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+/* -----------------FOOTER-------------------------------------- */
+
+.footer {
+  background: #2f303a;
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: var(--background-text-color);
+}
+
+.contacts-address {
+  font-style: normal;
+  line-height: calc(24 / 14);
+}
+
+.footer-contacts-item {
+  line-height: calc(24 / 14);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts-item:hover,
+.footer-contacts-item:focus {
+  color: var(--accent-color);
 }
