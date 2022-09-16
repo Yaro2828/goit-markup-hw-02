@@ -10,6 +10,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: var(--primary-text-color);
+  background-color: var(--background-text-color);
+  letter-spacing: 0.03em;
 }
 
 .link {
@@ -19,17 +21,25 @@ body {
   list-style: none;
 }
 
-/* -----------------------------------HEADER------------------ */
-
-.header {
-  background-color: var(--background-text-color);
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
+
+/* -----------------------------------HEADER------------------ */
 
 .logo {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
   color: #000000;
 }
 
@@ -59,4 +69,90 @@ body {
 .header-tel-mail:hover,
 .header-tel-mail:focus {
   color: var(--accent-color);
+}
+
+/* -----------------MAIN-------------------------------------- */
+
+.hero {
+  background-color: var(--hero-footer-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background-text-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--background-text-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* section 2 */
+
+.values-title {
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+}
+
+.values-text {
+  line-height: calc(24 / 14);
+  color: var(--secondary-text-color);
+}
+
+/* what-we-do--------------- */
+
+.gallery {
+}
+.gallery-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+}
+
+/* <!-- our team --> */
+
+.team {
+}
+.team-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+}
+
+.team-title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+}
+
+.team-bottom-text {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+}
+
+.team-item {
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1632px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
