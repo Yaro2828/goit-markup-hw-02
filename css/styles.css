@@ -42,7 +42,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  color: #000000;
+  color: var(--background-text-color);
 }
 
 .logo-part {
@@ -69,7 +69,7 @@ body {
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .header-tel-mail:hover,
@@ -105,8 +105,8 @@ body {
 }
 
 /* section 2 */
-
 .values-title {
+  font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
 }
@@ -118,19 +118,14 @@ body {
 
 /* what-we-do--------------- */
 
-.gallery-title {
+.section-title {
   font-size: 36px;
   line-height: calc(42 / 36);
-  text-align: center;
 }
 
 /* <!-- our team --> */
 .team {
   background: #f5f4fa;
-}
-.team-title {
-  font-size: 36px;
-  line-height: calc(42 / 36);
 }
 
 .team-title-name {
@@ -142,20 +137,13 @@ body {
 .team-bottom-text {
   font-size: 16px;
   line-height: calc(19 / 16);
+  color: var(--secondary-text-color);
 }
 
 /* -----------------FOOTER-------------------------------------- */
 
 .footer {
   background: #2f303a;
-}
-.footer-logo {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-  color: var(--background-text-color);
 }
 
 .contacts-address {
@@ -191,18 +179,18 @@ body {
   color: #ffffff;
   background: #2196f3;
 }
-
-.portfolio-hero {
-  background: #f5f5f5;
+.btnbd {
+  background-color: var(--accent-color);
+  color: var(--background-text-color);
 }
 
 .portfolio-title {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .portfolio-text {
   line-height: calc(30 / 16);
-  color: #757575;
+  color: var(--secondary-text-color);
 }
