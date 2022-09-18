@@ -5,8 +5,7 @@
   --hero-footer-color: #2f303a;
   --background-text-color: #ffffff;
 }
-
-body {
+А body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: var(--primary-text-color);
@@ -179,7 +178,7 @@ body {
   color: #ffffff;
   background: #2196f3;
 }
-.btnbd {
+.portfolio-btn.btnbd {
   background-color: var(--accent-color);
   color: var(--background-text-color);
 }
