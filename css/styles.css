@@ -49,6 +49,10 @@ body {
   color: var(--accent-color);
 }
 
+.header-nav .link.current {
+  color: var(--accent-color);
+}
+
 .header-nav-link {
   font-weight: 500;
   line-height: calc(16 / 14);
@@ -89,18 +93,14 @@ body {
 }
 
 .hero-btn {
-  font-family: inherit;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--background-text-color);
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  background: var(--accent-color);
   cursor: pointer;
 }
 
@@ -131,30 +131,17 @@ body {
 .team-title {
   font-size: 36px;
   line-height: calc(42 / 36);
-  text-align: center;
 }
 
 .team-title-name {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
-  text-align: center;
 }
 
 .team-bottom-text {
   font-size: 16px;
   line-height: calc(19 / 16);
-  text-align: center;
-}
-
-.team-item {
-  width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 1632px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 
 /* -----------------FOOTER-------------------------------------- */
@@ -174,6 +161,7 @@ body {
 .contacts-address {
   font-style: normal;
   line-height: calc(24 / 14);
+  color: #ffffff;
 }
 
 .footer-contacts-item {
@@ -187,3 +175,34 @@ body {
 }
 
 /* ________________________PORTFOLIO_________________________________ */
+
+.portfolio-btn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  color: #212121;
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.portfolio-hero {
+  background: #f5f5f5;
+}
+
+.portfolio-title {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-text {
+  line-height: calc(30 / 16);
+  color: #757575;
+}
