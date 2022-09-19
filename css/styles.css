@@ -5,7 +5,7 @@
   --hero-footer-color: #2f303a;
   --background-text-color: #ffffff;
 }
-А body {
+body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: var(--primary-text-color);
