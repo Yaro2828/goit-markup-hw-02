@@ -48,8 +48,8 @@ body {
   color: #000000;
 }
 
-.header-nav .link.current,
-.portfolio-btn.current {
+.header-nav-link.current
+{
   color: var(--accent-color);
 }
 
@@ -143,7 +143,7 @@ body {
 /* -----------------FOOTER-------------------------------------- */
 
 .footer {
-  background: #2f303a;
+  background: var(--hero-footer-color)
 }
 
 .footer-logo-part {
@@ -175,16 +175,17 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
-  color: #212121;
+  color: var(--primary-text-color)
   cursor: pointer;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--background-text-color);
+  background: var(--accent-color)
 }
-.portfolio-btn.btn {
+
+.portfolio-btn.active {
   background-color: var(--accent-color);
   color: var(--background-text-color);
 }
